@@ -154,13 +154,17 @@ body {
     letter-spacing: .6px;
     color: #484848;
     font-weight: 700;
-    text-align: center
+    text-align: center;
+    direction: rtl;
+
 }
 
 .board {
     border-radius: 3px;
     background: #72910c linear-gradient(to bottom, #9fc700 0%, #4e6405 100%);
-    padding: 27px 20px
+    padding: 27px 20px;
+    text-align: right;
+
 }
 
 .board__text {
@@ -497,7 +501,8 @@ body {
 .comment__name, .comment__text {
     font-size: 16px;
     letter-spacing: .4px;
-    color: #fff
+    color: #fff;
+
 }
 
 .comment__name {
@@ -508,7 +513,9 @@ body {
 }
 
 .comment__text {
-    line-height: 1.6em
+    line-height: 1.6em;
+    direction: rtl;
+
 }
 
 .comment__media {
@@ -918,7 +925,6 @@ body {
 }
 
 .sec-accent.flag .text {
-    text-align: left;
     margin-bottom: 15px
 }
 
@@ -1539,7 +1545,9 @@ body {
     }
 
     .sec-accent.flag .text {
-        text-transform: lowercase
+        text-transform: lowercase;
+        margin-top: 21px;
+
     }
 
     .sec-accent.flag .text:first-letter, .sec-prod .prod-content-wrap .text:first-letter {

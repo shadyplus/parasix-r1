@@ -22,7 +22,7 @@
 	width: 99%;
 	font-size: 19px;
 	margin: 0 0 10px 0px;
-	*
+	
 	margin-bottom:16px;
 	display: block;
 	resize:none;
@@ -37,7 +37,7 @@
 	width: 99%;
 	font-size: 19px;
 	margin: 0 0 10px 0px;
-	*
+	
 	margin-bottom:16px;
 	display: block;
 	resize:none;
@@ -167,8 +167,10 @@
 
     .orderform input, .orderform select, #form-index input, #form-index select, textarea{
         width: 100%;
+		padding: 10px;
+
     }
-}
+
 select.js-select {
     font-weight: normal;
     font-size: 16px;
